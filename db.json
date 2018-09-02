@@ -1,19 +1,19 @@
 {  
    "characters":[  
-      "baal":{  
+      {"baal":{  
          "audio":"http://123.com",
          "image":"http://123.com",
          "text":"http://123.com"
-      },
-      "diablo":{  
+      }},
+      {"diablo":{  
          "audio":"http://123.com",
          "image":"http://123.com",
          "text":"http://123.com"
-      },
-      "mephisto":{  
+      }},
+      {"mephisto":{  
          "audio":"http://123.com",
          "image":"http://123.com",
          "text":"http://123.com"
-      }
+      }}
    ]
 }
