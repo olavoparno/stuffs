@@ -1,22 +1,46 @@
 {
    "characters":[
       {
-         "name":"baal",
-         "audio":"http://123.com",
-         "image":"http://123.com",
-         "text":"http://123.com"
+         "name":"Amazon",
+         "audio":"http://www.dietimetodie.com/sounds/common/Amazon/Amazon1.flac",
+         "image":"http://www.dietimetodie.com/img/classes/amazon-big.jpg",
+         "text":"Warrior"
       },
       {
-      "name":"diablo",
-         "audio":"http://123.com",
-         "image":"http://123.com",
-         "text":"http://123.com"
+         "name":"Assassin",
+         "audio":"http://www.dietimetodie.com/sounds/common/Assassin/Assassin1.flac",
+         "image":"http://www.dietimetodie.com/img/classes/assassin-big.jpg",
+         "text":"Warrior"
       },
       {
-         "name":"mephisto",
-         "audio":"http://123.com",
-         "image":"http://123.com",
-         "text":"http://123.com"
-      }
+         "name":"Barbarian",
+         "audio":"http://www.dietimetodie.com/sounds/common/Barbarian/Barbarian1.flac",
+         "image":"http://www.dietimetodie.com/img/classes/barbarian-big.jpg",
+         "text":"Warrior"
+      },
+      {
+         "name":"Druid",
+         "audio":"http://www.dietimetodie.com/sounds/common/Druid/Druid1.flac",
+         "image":"http://www.dietimetodie.com/img/classes/druid-big.jpg",
+         "text":"Warrior"
+      },
+      {
+         "name":"Necromancer",
+         "audio":"http://www.dietimetodie.com/sounds/common/Necromancer/Necromancer1.flac",
+         "image":"http://www.dietimetodie.com/img/classes/necromancer-big.jpg",
+         "text":"Warrior"
+      },
+      {
+         "name":"Paladin",
+         "audio":"http://www.dietimetodie.com/sounds/common/Paladin/Paladin1.flac",
+         "image":"http://www.dietimetodie.com/img/classes/paladin-big.jpg",
+         "text":"Warrior"
+      },
+      {
+         "name":"Sorceress",
+         "audio":"http://www.dietimetodie.com/sounds/common/Sorceress/Sorceress1.flac",
+         "image":"http://www.dietimetodie.com/img/classes/sorceress-big.jpg",
+         "text":"Warrior"
+      },
    ]
 }
