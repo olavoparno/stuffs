@@ -5,6 +5,9 @@
 # with this software. 
 # If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
 
+export GITAWAREPROMPT=~/.bash/git-aware-prompt
+source "${GITAWAREPROMPT}/main.sh"
+
 # /etc/bash.bashrc: executed by bash(1) for interactive shells.
 
 # System-wide bashrc file
@@ -69,12 +72,10 @@ alias 'gfp'="git fetch --prune"
 alias 'gp'="git pull"
 alias 'projects'="cd /c/Users/olavo.parno/Documents/Projects/"
 alias '..'="cd .."
-
-parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
+alias 'proget'="nvm use 8.8.1; npm login --scope=@ingresso --always-auth=true --auth-type=legacy"
 
 # My Identification
 # PS1="\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\]; else echo \[\e[31m\]O_O\[\e[0m\]; fi\`[\u@\w]\\$ "
 # PS1="\[\033[0;33m\][\!]\`if [[ \$? = "0" ]]; then echo "\\[\\033[32m\\]"; else echo "\\[\\033[31m\\]"; fi\`[\u: \`if [[ `pwd|wc -c|tr -d " "` > 18 ]]; then echo "\\W"; else echo "\\w"; fi\`]\$\[\033[0m\] "; echo -ne "\033]0;`pwd`\007"
-PS1="\[\033[0;33m\][\t - \!] \`if [ \$? = 0 ]; then echo ☕ ; else echo 👳 ; fi\` \[\033[32m\] [\w]\[\033[0m\]\[\e[36m$(parse_git_branch)\[\033[31m\]\n\[\033[1;36m\]\u\[\033[1;33m\]-> $ \[\033[0m\]"
+# export PS1="\[\033[0;33m\][\t - \!] \`if [ \$? = 0 ]; then echo ☕ ; else echo 👳 ; fi\` \[\033[32m\] [\w]\[\033[0m\]\[\e[36m$(__git_ps1)\[\033[31m\]\n\[\033[1;36m\]\u\[\033[1;33m\]-> $ \[\033[0m\]"
+export PS1="\[\033[0;33m\][\t - \!] \`if [ \$? = 0 ]; then echo ☕ ; else echo 👳 ; fi\` \[\033]0;$MSYSTEM:\w\007\033[32m\] \[\033[33m\w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\033[0m\]\n\[\033[1;36m\]\u\[\033[0m\] $ "
