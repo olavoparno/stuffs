@@ -15,7 +15,7 @@ else
 	
 	PS1="$PS1"'\[\033[0;33m\][\t - \!] '
 
-	if [ $? = 0 ]; then PS1="$PS1"'☕  ' ; else PS1="$PS1"'👳  '; fi # add coffee for good commands and a professor advice for bad commands
+	PS1="$PS1"'☕  '
 
 	PS1="$PS1"'\u '             # user@host<space>
 	PS1="$PS1"'\[\033[33m\]'       # change to brownish yellow
