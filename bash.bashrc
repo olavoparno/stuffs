@@ -65,7 +65,7 @@ alias 'projects'="cd /c/Users/olavo.parno/Documents/Projects/"
 alias '..'="cd .."
 alias 'proget'="echo '- Accessing ProGet...'; npm login --scope=@ingresso --always-auth=true --auth-type=legacy"
 alias 'gc'="git checkout"
-alias 'bin'='PATH=$(npm bin):$PATH'
+alias 'bin'='PATH=./node_modules/.bin:$PATH'
 
 # Uncomment to use the terminal colours set in DIR_COLORS
 # eval "$(dircolors -b /etc/DIR_COLORS)"
