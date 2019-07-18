@@ -1,46 +1,13 @@
 {
-   "characters":[
-      {
-         "name":"Amazon",
-         "audio":"http://www.dietimetodie.com/sounds/Common/Amazon/Amazon1.flac",
-         "image":"http://www.dietimetodie.com/img/classes/amazon-big.jpg",
-         "text":"Warrior"
-      },
-      {
-         "name":"Assassin",
-         "audio":"http://www.dietimetodie.com/sounds/Common/Assassin/Assassin1.flac",
-         "image":"http://www.dietimetodie.com/img/classes/assassin-big.jpg",
-         "text":"Warrior"
-      },
-      {
-         "name":"Barbarian",
-         "audio":"http://www.dietimetodie.com/sounds/Common/Barbarian/Barbarian1.flac",
-         "image":"http://www.dietimetodie.com/img/classes/barbarian-big.jpg",
-         "text":"Warrior"
-      },
-      {
-         "name":"Druid",
-         "audio":"http://www.dietimetodie.com/sounds/Common/Druid/Druid1.flac",
-         "image":"http://www.dietimetodie.com/img/classes/druid-big.jpg",
-         "text":"Warrior"
-      },
-      {
-         "name":"Necromancer",
-         "audio":"http://www.dietimetodie.com/sounds/Common/Necromancer/Necromancer1.flac",
-         "image":"http://www.dietimetodie.com/img/classes/necromancer-big.jpg",
-         "text":"Warrior"
-      },
-      {
-         "name":"Paladin",
-         "audio":"http://www.dietimetodie.com/sounds/Common/Paladin/Paladin1.flac",
-         "image":"http://www.dietimetodie.com/img/classes/paladin-big.jpg",
-         "text":"Warrior"
-      },
-      {
-         "name":"Sorceress",
-         "audio":"http://www.dietimetodie.com/sounds/Common/Sorceress/Sorceress1.flac",
-         "image":"http://www.dietimetodie.com/img/classes/sorceress-big.jpg",
-         "text":"Warrior"
-      }
-   ]
+  "todos": [
+    {
+      "id": 1,
+      "name": "First Todo",
+      "description": "First Todo Desc",
+      "due_date": "7/18/2019, 6:32:40 AM",
+      "etc": "2 days",
+      "reminder": "1 day",
+      "creation_date": "7/18/2019, 6:32:40 AM"
+    }
+  ]
 }
